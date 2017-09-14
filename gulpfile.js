@@ -7,6 +7,6 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('public/styles'));
 });
 
-gulp.task('sass:watch', function () {
+gulp.task('sasswatch', function () {
   gulp.watch('public/styles/scss/style.scss', ['sass']);
 });

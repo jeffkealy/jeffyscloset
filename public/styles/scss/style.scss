@@ -1,9 +1,71 @@
-
+@font-face {
+  font-family: 'CHERI';
+  src: url(../../assets/CHERI.TFF);
+}
 
 body {
   background-color: #F9C2E9;
 }
+.home{
+  &__banner{
+    margin-top: 20px;
+    text-align: center;
+  }
+  &__title{
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__stars{
+      width: 100%;
+      height: auto;
+      top: 0;
+      position: fixed;
+    .left{
+      // margin-top: -335px;
+      position: relative;
+      top: 25px;
+      max-width: 100%;
+      height: auto;
+      // display: none;
+    }
+    .middle{
+      // margin-top: -375px;
+      position: relative;
+      top: 25px;
+      max-width: 100%;
+      height: auto;
+    }
+    .right{
+      // margin-top: -425px;
+      position: relative;
+      top: 20px;
+      max-width: 100%;
+      height: auto;
+    }
 
-.banner-image{
-  text-align: center;
+  }
+  &__image{
+    text-align: center;
+    margin-bottom: 20px;
+
+    img{
+      margin-top: -100px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  &__line-break{
+    border-bottom: 1px solid #b6a3b9;
+  }
+  &__toolbar{
+    font-family: 'CHERI', sans-serif;
+    text-align: center;
+    color: #0057A5;
+    h2 {
+      font-size: 54px;
+      cursor: pointer;
+    }
+  }
 }

@@ -1,5 +1,54 @@
+@font-face {
+  font-family: 'CHERI';
+  src: url(../../assets/CHERI.TFF); }
+
 body {
   background-color: #F9C2E9; }
 
-.banner-image {
+.home__banner {
+  margin-top: 20px;
   text-align: center; }
+
+.home__title img {
+  max-width: 100%;
+  height: auto; }
+
+.home__stars {
+  width: 100%;
+  height: auto;
+  top: 0;
+  position: fixed; }
+  .home__stars .left {
+    position: relative;
+    top: 25px;
+    max-width: 100%;
+    height: auto; }
+  .home__stars .middle {
+    position: relative;
+    top: 25px;
+    max-width: 100%;
+    height: auto; }
+  .home__stars .right {
+    position: relative;
+    top: 20px;
+    max-width: 100%;
+    height: auto; }
+
+.home__image {
+  text-align: center;
+  margin-bottom: 20px; }
+  .home__image img {
+    margin-top: -100px;
+    max-width: 100%;
+    height: auto; }
+
+.home__line-break {
+  border-bottom: 1px solid #b6a3b9; }
+
+.home__toolbar {
+  font-family: 'CHERI', sans-serif;
+  text-align: center;
+  color: #0057A5; }
+  .home__toolbar h2 {
+    font-size: 54px;
+    cursor: pointer; }
