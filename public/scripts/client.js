@@ -6,7 +6,7 @@ app.config(function ($routeProvider) {
       .when('/home', {
         templateUrl: 'views/templates/home.html',
         controller: 'HomeController',
-        controllerAs: 'home'
+        controllerAs: 'hc'
       })
       .otherwise({
         redirectTo: 'home'

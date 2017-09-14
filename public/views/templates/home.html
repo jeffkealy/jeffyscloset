@@ -13,24 +13,15 @@
       <img class="right" id="rightStar"src="../assets/rightstar.png" alt="">
     </div>
     <div class="home__image col-md-12">
-      <img src="../assets/coatonly.png" alt="">
+      <img src="../assets/{{hc.homeImage}}" alt="">
     </div>
   </div>
 
   <div class="container">
     <div class="home__line-break"></div>
-
     <div class="home__toolbar row justify-content-md-center">
-      <!-- <div class="col-md-2"></div> -->
-      <div class="col-sm-4">
-        <h2>Hoods</h2>
-        <!-- <img src="../assets/hoodieNoBackgroundCrop.png" alt=""> -->
-      </div>
-      <div class="col-sm-4">
-        <h2>Thrift</h2>
-      </div>
-      <div class="col-sm-4">
-        <h2>Pants</h2>
+      <div ng-repeat="data in hc.toolbarData"  class="col-sm-4">
+        <h2 ng-click="hc.toolbarClick()" ng-mouseover="hc.mouseover($index)" ng-mouseleave="hc.mouseleave()">{{data.title}}</h2>
       </div>
     </div>
   </div>
