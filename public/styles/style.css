@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'CHERI';
   src: url(../../assets/CHERI.TFF);
-  src: url("webfont.eot");
+  src: url("../../assets/CHERIwebfont.eot");
   /* IE9 Compat Modes */
-  src: url("webfont.eot?#iefix") format("embedded-opentype"), url("webfont.woff2") format("woff2"), url("webfont.woff") format("woff"), url("webfont.ttf") format("truetype"), url("webfont.svg#svgFontName") format("svg");
+  src: url("../../assets/CHERIwebfont.eot?#iefix") format("embedded-opentype"), url("../../assets/CHERIwebfont.woff2") format("woff2"), url("../../assets/CHERIwebfont.woff") format("woff"), url("../../assets/CHERIwebfont.ttf") format("truetype"), url("../../assets/CHERIwebfont.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 
 body {

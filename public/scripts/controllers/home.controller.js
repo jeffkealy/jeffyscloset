@@ -45,7 +45,7 @@ angular.module('app')
   }
 
   self.mouseleave = function(){
-    self.homeImage = "coatonly.png"
+    self.homeImage = "coat.png"
   }
 
   }]);

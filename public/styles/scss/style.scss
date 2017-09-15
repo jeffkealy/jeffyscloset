@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'CHERI';
   src: url(../../assets/CHERI.TFF);
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  src: url('../../assets/CHERIwebfont.eot'); /* IE9 Compat Modes */
+  src: url('../../assets/CHERIwebfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../assets/CHERIwebfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../../assets/CHERIwebfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../../assets/CHERIwebfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../assets/CHERIwebfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 body {
@@ -55,6 +55,9 @@ body {
   &__image{
     text-align: center;
     margin-bottom: 20px;
+    // @media (max-width: 767px) {
+    //   margin-bottom: 8px
+    // }
     // border: 1px solid #b6a3b9;
 
 
