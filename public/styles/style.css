@@ -1,10 +1,8 @@
 @font-face {
-  font-family: 'CHERI';
-  src: url(../../assets/CHERI.TFF);
-  src: url("../../assets/CHERIwebfont.eot");
-  /* IE9 Compat Modes */
-  src: url("../../assets/CHERIwebfont.eot?#iefix") format("embedded-opentype"), url("../../assets/CHERIwebfont.woff2") format("woff2"), url("../../assets/CHERIwebfont.woff") format("woff"), url("../../assets/CHERIwebfont.ttf") format("truetype"), url("../../assets/CHERIwebfont.svg#svgFontName") format("svg");
-  /* Legacy iOS */ }
+  font-family: 'cheriregular';
+  src: url("../../assets/cheri-webfont.woff2") format("woff2"), url("../../assets/cheri-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 body {
   background-color: #F9C2E9; }
@@ -50,7 +48,7 @@ body {
   border-bottom: 1px solid #b6a3b9; }
 
 .home__toolbar {
-  font-family: 'CHERI', sans-serif;
+  font-family: 'cheriregular', sans-serif;
   text-align: center;
   color: #0057A5; }
   .home__toolbar h2 {
