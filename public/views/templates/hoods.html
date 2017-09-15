@@ -1,0 +1,10 @@
+<div class="hoods container">
+  <h1 class="hoods__title row">Hoodies</h1>
+  <div class="row">
+    <div class="col-md-12 hoods__images" ng-repeat="hds in hoodsc.hoods">
+      <img class='image' ng-click="hoodsc.imageChange($index)" ng-mouseover="hoodsc.mouseover($index)"  src="../../assets/{{hds.images[hds.hoodImageArrayVar]}}" alt="Hood image">
+      <h2 class='image-title'>{{hds.name}}</h2>
+    </div>
+  </div>
+  <h2><a href="#!home">*Home*</a></h2>
+</div>

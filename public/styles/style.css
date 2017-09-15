@@ -4,6 +4,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'cheri_lineyregular';
+  src: url("../../assets/cherl-webfont.woff2") format("woff2"), url("../../assets/cherl-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 body {
   background-color: #F9C2E9; }
 
@@ -54,3 +60,19 @@ body {
   .home__toolbar h2 {
     font-size: 54px;
     cursor: pointer; }
+
+.hoods {
+  text-align: center; }
+  .hoods h2 {
+    font-family: 'cheriregular', sans-serif; }
+    .hoods h2 a {
+      color: #0057A5;
+      text-decoration: none; }
+  .hoods__title {
+    font-family: 'cheri_lineyregular', sans-serif;
+    color: #0057A5; }
+  .hoods__images .image {
+    max-width: 300px;
+    border-radius: 40px; }
+  .hoods__images .image-title {
+    margin-top: 40px; }

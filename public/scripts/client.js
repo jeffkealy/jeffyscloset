@@ -8,6 +8,11 @@ app.config(function ($routeProvider) {
         controller: 'HomeController',
         controllerAs: 'hc'
       })
+      .when('/hoods', {
+        templateUrl: 'views/templates/hoods.html',
+        controller: 'HoodsController',
+        controllerAs: 'hoodsc'
+      })
       .otherwise({
         redirectTo: 'home'
       });

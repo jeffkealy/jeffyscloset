@@ -1,5 +1,5 @@
 angular.module('app')
-  .controller('HomeController', ['$http', function($http){
+  .controller('HomeController', ['$http', '$location', function($http, $location){
     const self = this;
 
   self.homeImage = "coat.png";
@@ -37,11 +37,19 @@ angular.module('app')
       image: "hoodie.png"
     }
   ];
-  self.toolbarClick = function(){
-    alert("under construction")
+  self.toolbarClick = function(idx){
+    if (idx == 0 ) {
+      console.log(idx);
+      alert("under construction. Check out hoods")
+    }else if (idx == 1) {
+      alert("under construction. Check out hoods")
+    }
+    else {
+      $location.path('/hoods')
+    }
   }
   self.mouseover = function(idx){
-    self.homeImage = self.toolbarData[idx].image
+    self.homeImage = self.toolbarData[idx].image;
   }
 
   self.mouseleave = function(){

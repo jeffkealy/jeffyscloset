@@ -21,7 +21,7 @@
     <div class="home__line-break"></div>
     <div class="home__toolbar row justify-content-md-center">
       <div ng-repeat="data in hc.toolbarData"  class="col-sm-4">
-        <h2 ng-click="hc.toolbarClick()" ng-mouseover="hc.mouseover($index)" ng-mouseleave="hc.mouseleave()">{{data.title}}</h2>
+        <h2 ng-click="hc.toolbarClick($index)" ng-mouseover="hc.mouseover($index)" ng-mouseleave="hc.mouseleave()" >{{data.title}}</h2>
       </div>
     </div>
   </div>

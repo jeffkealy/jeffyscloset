@@ -1,19 +1,18 @@
-// @font-face {
-//   font-family: 'cheri';
-//   src: url(cheri.TFF);
-// }
 @font-face {
     font-family: 'cheriregular';
     src: url('../../assets/cheri-webfont.woff2') format('woff2'),
          url('../../assets/cheri-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+@font-face {
+    font-family: 'cheri_lineyregular';
+    src: url('../../assets/cherl-webfont.woff2') format('woff2'),
+         url('../../assets/cherl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
 }
-
-// ('../../assets/CHERIwebfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-
-
 body {
   background-color: #F9C2E9;
 }
@@ -34,22 +33,18 @@ body {
       top: 0;
       position: fixed;
     .left{
-      // margin-top: -335px;
       position: relative;
       top: 25px;
       max-width: 100%;
       height: auto;
-      // display: none;
     }
     .middle{
-      // margin-top: -375px;
       position: relative;
       top: 25px;
       max-width: 100%;
       height: auto;
     }
     .right{
-      // margin-top: -425px;
       position: relative;
       top: 20px;
       max-width: 100%;
@@ -60,9 +55,6 @@ body {
   &__image{
     text-align: center;
     margin-bottom: 20px;
-    // @media (max-width: 767px) {
-    //   margin-bottom: 8px
-    // }
     // border: 1px solid #b6a3b9;
 
 
@@ -82,6 +74,31 @@ body {
     h2 {
       font-size: 54px;
       cursor: pointer;
+    }
+  }
+}
+.hoods{
+  text-align: center;
+  h2{
+    font-family: 'cheriregular', sans-serif;
+    a {
+      color: #0057A5;
+      text-decoration: none;
+    }
+  }
+  &__title{
+    font-family: 'cheri_lineyregular', sans-serif;
+    color: #0057A5;
+
+
+  }
+  &__images{
+    .image{
+      max-width: 300px;
+      border-radius: 40px;
+    }
+    .image-title{
+      margin-top: 40px
     }
   }
 }
