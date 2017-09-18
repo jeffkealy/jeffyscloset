@@ -2,7 +2,7 @@ angular.module('app')
   .controller('HomeController', ['$http', '$location', function($http, $location){
     const self = this;
 
-  self.homeImage = "coat.png";
+  self.homeImage = "coatonly.png";
 
   $(document).ready(function(){
     function leftStarFade(){
@@ -53,7 +53,7 @@ angular.module('app')
   }
 
   self.mouseleave = function(){
-    self.homeImage = "coat.png"
+    self.homeImage = "coatonly.png"
   }
 
   }]);

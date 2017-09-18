@@ -24,7 +24,7 @@ angular.module('app')
         hoodImageArrayVar: 0
       },
       {
-        name: "Slang",
+        name: "Sporty",
         images: ["slangup.png", "slangdown.png"],
         hoodImageArrayVar: 0
       }

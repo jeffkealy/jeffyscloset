@@ -54,17 +54,23 @@ body {
   }
   &__image{
     text-align: center;
-    margin-bottom: 20px;
     // border: 1px solid #b6a3b9;
 
 
+
     img{
-      margin-top: -115px;
+      margin-top: -110px;
       max-width: 100%;
       height: auto;
+      // border: 1px solid #b6a3b9;
+      @media (max-width: 522px ){
+        margin-top: -60px;
+
+      }
     }
   }
   &__line-break{
+    margin-top: 25px;
     border-bottom: 1px solid #b6a3b9;
   }
   &__toolbar{

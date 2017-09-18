@@ -43,14 +43,17 @@ body {
     height: auto; }
 
 .home__image {
-  text-align: center;
-  margin-bottom: 20px; }
+  text-align: center; }
   .home__image img {
-    margin-top: -115px;
+    margin-top: -110px;
     max-width: 100%;
     height: auto; }
+    @media (max-width: 522px) {
+      .home__image img {
+        margin-top: -60px; } }
 
 .home__line-break {
+  margin-top: 25px;
   border-bottom: 1px solid #b6a3b9; }
 
 .home__toolbar {
