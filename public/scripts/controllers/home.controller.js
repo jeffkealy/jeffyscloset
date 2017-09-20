@@ -1,7 +1,7 @@
 angular.module('app')
   .controller('HomeController', ['$http', '$location', function($http, $location){
     const self = this;
-
+    console.log("home controller", $location.url());
   self.homeImage = "coatonly.png";
 
   $(document).ready(function(){
@@ -45,15 +45,19 @@ angular.module('app')
       alert("under construction. Check out hoods")
     }
     else {
-      $location.path('/hoods')
+      self.showHide = true;
     }
+    self.homeImage = self.toolbarData[idx].image;
   }
   self.mouseover = function(idx){
     self.homeImage = self.toolbarData[idx].image;
   }
 
-  self.mouseleave = function(){
+
+  self.bannerClick = function(){
+    console.log("click");
     self.homeImage = "coatonly.png"
+    self.showHide = false
   }
 
   }]);

@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-const app = angular.module('app', ['ngRoute']);
+const app = angular.module('app', ['ngRoute', 'ngAnimate']);
 
 app.config(function ($routeProvider) {
     $routeProvider

@@ -25,7 +25,8 @@ body {
   width: 100%;
   height: auto;
   top: 0;
-  position: fixed; }
+  position: fixed;
+  cursor: pointer; }
   .home__stars .left {
     position: relative;
     top: 25px;
@@ -79,3 +80,10 @@ body {
     border-radius: 40px; }
   .hoods__images .image-title {
     margin-top: 40px; }
+
+.fade.ng-enter {
+  transition: 0.5s linear all;
+  opacity: 1; }
+
+.fade.ng-enter.ng-enter-active {
+  opacity: 1; }
